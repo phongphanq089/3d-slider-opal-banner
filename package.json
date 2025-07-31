@@ -1,0 +1,46 @@
+{
+  "name": "animation-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@darkroom.engineering/tempus": "^0.0.46",
+    "@gsap/react": "^2.1.2",
+    "@react-three/drei": "^10.4.2",
+    "@react-three/fiber": "^9.1.4",
+    "@studio-freight/lenis": "^1.0.42",
+    "clsx": "^2.1.1",
+    "gsap": "^3.13.0",
+    "lenis": "^1.3.8",
+    "next": "^15.3.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwind-merge": "^3.3.1",
+    "three": "^0.178.0",
+    "usehooks-ts": "^3.1.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/node": "^20",
+    "@types/react": "19.0.7",
+    "@types/react-dom": "19.0.3",
+    "eslint": "^8",
+    "eslint-config-next": "^15.3.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "postcss": "^8",
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.13",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3"
+  },
+  "overrides": {
+    "@types/react": "19.0.7",
+    "@types/react-dom": "19.0.3"
+  }
+}
